@@ -1,47 +1,134 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <link href="index.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet" />
+    <link href="../styles.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a385b19128.js" crossorigin="anonymous"></script>
 </head>
-<body>
-<div class="wd-header">
-    <label class="wd-title">Bookmarks</label>
-    <label class="wd-handle">@WebDev</label>
-</div>
-<div class="wd-post">
-    <img class="wd-avatar" src="https://i.pinimg.com/236x/f3/5e/fb/f35efb58689a97bcc173ab8ecac80b83--naruto-uzumaki-otaku.jpg" />
-    <div class="wd-post-container">
-        <div class="wd-post-title">
-            <label class="wd-post-content-primary">Robert Zubrin</label>&nbsp;
-            <label class="wd-post-content-secondary">@robert_zubrin · Jul 31</label>
-        </div>
-        <div class="wd-post-content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu bibendum nisl, ultrices finibus massa. Duis sit amet suscipit lorem, non commodo nisi. Vestibulum pulvinar posuere malesuada. Maecenas suscipit facilisis dolor. Etiam tincidunt, felis et accumsan elementum, mi lorem dignissim augue, id rutrum lectus augue sed arcu. Nullam in ex vulputate, interdum urna id, lobortis dui. Curabitur tortor felis, auctor ut quam rutrum, tincidunt ullamcorper quam. Sed et velit nisi. Fusce tempus, erat eu pulvinar volutpat, ligula turpis convallis felis, ac lacinia justo justo quis velit. Suspendisse semper ipsum orci, nec ullamcorper purus imperdiet at. Proin vel enim sit amet lorem dapibus ullamcorper at at erat. Aliquam erat volutpat. Morbi eget molestie urna. Nulla varius varius enim at molestie. Maecenas quis tincidunt felis, venenatis interdum quam. Sed non est felis.
-        </div>
-        <div class="wd-post-image-container">
-            <img class="wd-post-image" src="https://thumbs.dreamstime.com/b/group-school-kids-raising-hands-classroom-education-elementary-learning-people-concept-teacher-sitting-57655971.jpg" />
-            <div class="wd-post-link">
-                <label class="wd-post-content-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</label>
-                <p class="wd-post-content-secondary">Phasellus ut enim et sapien cursus porttitor. Curabitur id metus vitae odio volutpat mollis. Pellentesque sed orci eget enim sagittis interdum at vitae velit. Nulla ullamcorper condimentum dictum. Donec ullamcorper commodo urna, sit amet elementum ex feugiat eget.</p>
-                <a href="https://www.rt.com/" class="wd-post-content-secondary">rt.com</a>
-            </div>
-        </div>
-        <div class="wd-post-action-container">
-            <!-- Icon credits: https://icons8.com/ -->
-            <div class="wd-post-action">
-                <a class="wd-post-action-link" href="#"><img class="wd-post-action-icon" src="assets/comment.png"/>22</a>
-            </div>
-            <div class="wd-post-action">
-                <a class="wd-post-action-link" href="#"><img class="wd-post-action-icon" src="assets/retuit.png"/>9</a>
-            </div>
-            <div class="wd-post-action">
-                <a class="wd-post-action-link" href="#"><img class="wd-post-action-icon" src="assets/like.png"/>37</a>
-            </div>
-            <div class="wd-post-action">
-                <a class="wd-post-action-link" href="#"><img class="wd-post-action-icon" src="assets/share.png"/></a>
+
+<body class="wd-body">
+
+<div class="wd-body-container">
+    <div class="wd-bottom-border">
+        <div class="wd-row">
+            <div class="wd-content-header">
+
+                <h3 class="wd-content-title">
+                    Bookmarks
+                </h3>
+                <p class="wd-content-subtitle">
+                    @WebDev
+                </p>
             </div>
         </div>
     </div>
+
+
+    <div class="wd-row">
+        <div class="wd-circle-img-col">
+            <img class="wd-circle-img" src="avatar.png"/>
+        </div>
+
+        <div class="content-col">
+            <p class="wd-content-name">
+                Robert Zubrin
+                <span class="wd-content-subtitle">
+                         @robert_zubrin - Jul 31
+                    </span>
+            </p>
+            <p class="wd-content-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+
+            <div class="wd-link-content">
+                <img class="wd-large-link-img" src="post1image.jpeg"/>
+                <div class="wd-link-text-container">
+                    <p class="wd-content-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <p style="margin: 3px 0px"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>rt.com</p>
+                </div>
+            </div>
+
+            <div class="wd-icons-row">
+                <div class="wd-icon-col">
+                    <a class="wd-reaction-icon" href="#"> <i class="fa-regular fa-comment"></i> </a>
+                    <p>22</p>
+                </div>
+                <div class="wd-icon-col">
+                    <a class="wd-reaction-icon" href="#"> <i class="fa-solid fa-retweet"></i> </a>
+                    <p>9</p>
+                </div>
+                <div class="wd-icon-col">
+                    <a class="wd-reaction-icon clicked" href="#"> <i class="fa-solid fa-heart"></i> </a>
+                    <p class="clicked">37</p>
+                </div>
+                <div class="wd-icon-col">
+                    <a class="wd-reaction-icon" href="#"> <i class="fa-solid fa-arrow-up-from-bracket"></i> </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
 </div>
+
+<div class="wd-body-container">
+    <div class="wd-row">
+        <div class="wd-circle-img-col">
+            <img class="wd-circle-img" src="avatar2.png"/>
+        </div>
+
+        <div class="content-col">
+            <p class="wd-content-name">
+                August Huang
+                <span class="wd-content-subtitle">
+                         @august_hhh - August 31
+                    </span>
+            </p>
+            <p class="wd-content-text">
+                Meta
+                shares popped in extended trading on Wednesday after the company reported fourth-quarter revenue that topped estimates and announced a $40 billion stock buyback. Here are the results.
+
+                Earnings: $1.76 per share
+                Revenue:  $32.17 billion vs $31.53 billion expected, according to Refinitiv
+                The company also reported restructuring charges for its Family of Apps segment and Reality Labs unit of $3.76 billion and $440 million, respectively during the fourth quarter of 2022. Because of those charges, it’s difficult to compare the company’s earnings per share to analyst estimates of $2.22 per share.
+            </p>
+
+            <div class="wd-link-content">
+                <img class="wd-large-link-img" src="post2image.jpeg"/>
+                <div class="wd-link-text-container">
+                    <p class="wd-content-text"> Meta shares soar 17% on fourth-quarter revenue beat</p>
+                    <p style="margin: 3px 0px"> The company provided a forecast for the first quarter, suggesting that revenue could rise from a year earlier should results come in at the top of the range.</p>
+                    <p>CNN.com</p>
+                </div>
+            </div>
+
+            <div class="wd-icons-row">
+                <div class="wd-icon-col">
+                    <a class="wd-reaction-icon" href="#"> <i class="fa-regular fa-comment"></i> </a>
+                    <p>20</p>
+                </div>
+                <div class="wd-icon-col">
+                    <a class="wd-reaction-icon" href="#"> <i class="fa-solid fa-retweet"></i> </a>
+                    <p>19</p>
+                </div>
+                <div class="wd-icon-col">
+                    <a class="wd-reaction-icon clicked" href="#"> <i class="fa-solid fa-heart"></i> </a>
+                    <p class="clicked">18</p>
+                </div>
+                <div class="wd-icon-col">
+                    <a class="wd-reaction-icon" href="#"> <i class="fa-solid fa-arrow-up-from-bracket"></i> </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
 </body>
+
 </html>

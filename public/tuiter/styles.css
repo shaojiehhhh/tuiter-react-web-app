@@ -1,0 +1,50 @@
+.wd-body {
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.wd-body-container {
+    border: 1px solid rgb(49,51,54);
+    margin: 5px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-row {
+    display: flex;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 0px 16px;
+}
+
+.wd-content-row {
+    padding: 16px;
+    border-top: 1px solid rgb(48,50,53);
+    display: flex;
+}
+
+.wd-content-header {
+    width: 100%;
+}
+
+.wd-content-title {
+    color: white;
+    margin: 5px 0px 5px 0px;
+    font-size: 20px;
+}
+
+.wd-content-subtitle {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    margin: 0px;
+    font-weight: normal;
+}
+
+.wd-content-name {
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 5px;
+}
