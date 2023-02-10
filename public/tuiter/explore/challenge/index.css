@@ -39,7 +39,7 @@ input[type="text"], textarea {
 
 .navbar-nav > .active > a {
     color: white;
-    border-bottom: 5px solid rgba(0, 132, 255, 0.87);
+    border-bottom: 5px  rgba(0, 132, 255, 0.87);
 }
 
 .wd-image-text{
@@ -75,7 +75,7 @@ input[type="text"], textarea {
 }
 
 .wd-tab-border {
-    border-bottom: solid 3px rgba(110, 118, 125, 0.5);
+    border-bottom: 3px rgba(110, 118, 125, 0.5);
     margin-bottom: 10px;
 }
 
@@ -93,7 +93,7 @@ input[type="text"], textarea {
 }
 
 .wd-tab-border-highlight {
-    border-bottom: solid 5px rgb(29, 161, 242);
+    border-bottom: 5px rgb(29, 161, 242);
 }
 
 .float-done {
@@ -105,7 +105,7 @@ input[type="text"], textarea {
 }
 
 .wd-suggested-post-border {
-    border-bottom: solid 0.1px rgba(110, 118, 125, 0.5);
+    border-bottom:  0.01px rgba(110, 118, 125, 0.5);
 }
 
 .wd-suggest-margin {
@@ -245,7 +245,7 @@ input[type="text"], textarea {
 }
 
 .wd-custom-border {
-    border: solid 0.1px rgba(110, 118, 125, 0.5);
+    border:  0.1px rgba(110, 118, 125, 0.5);
 }
 
 .wd-nav-border {
