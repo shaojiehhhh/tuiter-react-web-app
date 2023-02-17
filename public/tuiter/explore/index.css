@@ -13,23 +13,25 @@
 .wd-search-bar {
     border-radius: 50px;
     height: 40px;
-    margin: 10px 12px 10px 16px;
+    margin: 0px 12px 10px 16px;
+    width: 60px;
 }
 
 .wd-search-icon {
-    color: rgb(110, 118, 125);
+    background-color: white;
+    color: lightgray;
     border-radius: 50px;
     height: 40px;
-    border-left: solid 0.1px rgba(110, 118, 125, 0.5);
-    border-top: solid 0.1px rgba(110, 118, 125, 0.5);
-    border-bottom: solid 0.1px rgba(110, 118, 125, 0.5);
 }
+
 
 input[type="text"], textarea {
     width: 90%;
     height: 40px;
     border-radius: 50px;
 }
+
+
 
 .navbar-nav .nav-link {
     color:  rgb(75, 74, 74);
@@ -45,8 +47,9 @@ input[type="text"], textarea {
     position: absolute;
     bottom: 5px;
     left: 20px;
-    color: white;
-    font-size: xx-large;
+    color: black;
+    font-size: xxx-large;
+    font-size: bold;
 }
 
 .wd-image{
@@ -166,7 +169,7 @@ input[type="text"], textarea {
 }
 
 .list-group-item.active{
-    font-weight: bold;
+    font-size: bold;
     color: white;
 }
 
@@ -180,7 +183,6 @@ input[type="text"], textarea {
 .wd-author , .wd-content {
     width: 100%;
     font-size: 16px;
-    color: black;
     height: auto;
     font-weight: bold;
 }
