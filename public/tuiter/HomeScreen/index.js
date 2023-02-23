@@ -1,6 +1,6 @@
 /* eslint-env jquery */
-import NavigationSidebar from "../explore/NavigationSidebar/index.js";
-import PostSummaryList from "../explore/PostSummaryList/index.js";
+import NavigationSidebar from "../exploreScreen/NavigationSidebar/index.js";
+import PostSummaryList from "../exploreScreen/PostSummaryList/index.js";
 import PostList from "./PostList.js"
 
 function exploreComponent() {
