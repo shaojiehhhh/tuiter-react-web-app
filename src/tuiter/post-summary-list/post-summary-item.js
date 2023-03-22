@@ -7,7 +7,7 @@ const PostSummaryItem = (
             "userName": "ReactJS",
             "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
             "time": "2h",
-            "image": "reactLogo.png",
+            "image": "../images/reactLogo.png",
             "tweets": ""
         }
     }

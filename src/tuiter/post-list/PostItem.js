@@ -9,7 +9,7 @@ const PostItem = (
             "handle": "elonmusk",
             "time": "23h",
             "tuit": 'Amazing show about <a href="https://twitter.com/inspiration4x" style="ext-decoration:none">@Inspiration4x</a> mission!',
-            "postImg": "inspiration4.jpg",
+            "postImg": "inspiration.jpeg",
             "title": "Countdown: Inspiration4 Mission to Space | Netflix Offical Site",
             "summary": "From traing to launch to landing, this all-access docuseries rides along with the Inspiration4 crew on the first all-civilian orbital space...\n netflix.com",
             "commentCount": "4.2K",
@@ -52,20 +52,20 @@ const PostItem = (
                         <div className="row mt-3 mb-2">
                             <div className="col-3 wd-icon-size">
 
-                                <span><i className="far fa-comment mx-2 fg-color-gray"></i>{post.commentCount}</span>
+                                <span><i className="far fa-comment mx-2 fg-color-gray"/>{post.commentCount}</span>
                             </div>
 
                             <div className="col-3 wd-icon-size">
-                                <span><i className="fa fa-retweet mx-2 fg-color-gray" ></i>{post.retweetCount}</span>
+                                <span><i className="fa fa-retweet mx-2 fg-color-gray" />{post.retweetCount}</span>
                             </div>
 
                             <div className="col-3 wd-icon-size">
 
-                                <span><i className="fa fa-heart mx-2 fg-color-red"></i>{post.likeCount}</span>
+                                <span><i className="fa fa-heart mx-2 fg-color-red"/>{post.likeCount}</span>
                             </div>
 
                             <div className="col-3 wd-icon-size">
-                                <i className="fa fa-share-alt mx-2 fg-color-gray" ></i>
+                                <i className="fa fa-share-alt mx-2 fg-color-gray" />
                             </div>
                         </div>
 
