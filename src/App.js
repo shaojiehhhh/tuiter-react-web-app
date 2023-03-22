@@ -5,6 +5,7 @@ import Tuiter from "./tuiter";
 import Assignment7 from "./labs/a7";
 import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
+import "./profile.css";
 
 function App() {
     return (

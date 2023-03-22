@@ -1,0 +1,17 @@
+
+{
+  "_id": 1,
+  "firstName": "Shaojie",
+  "lastName": "Huang",
+  "handle": "Huang.Shaojie",
+  "profileImg": "../images/home pic.jpeg",
+  "bannerImg": "../images/bannerimage.jpeg",
+  "bio": "Grad Student @ Northeastern University, CS Align, Hiking",
+  "website": "https://github.com/shaojiehhhh/tuiter-react-web-app",
+  "location": "Seattle, WA",
+  "dateOfBirth": "Born 1998-08-19",
+  "dateJoined": "Joined 01/2023",
+  "followingCnt": 305,
+  "followerCnt": 278,
+  "tuits": 556
+}
