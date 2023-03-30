@@ -6,15 +6,17 @@ import ExploreComponent from "./explore";
 import HomeComponent from "./home";
 import ProfileComponent from "./profile/profile-list";
 import EditProfile from "./edit-profile/EditProfile";
-import whoReducer
-    from "./reducers/who-reducer";
+import whoReducer from "./reducers/who-reducer";
 import profileReducer from './profile/profile-reducer'
 import tuitsReducer from "./tuits/tuits-reducer";
-import {combineReducers, createStore} from "redux"
+import {configureStore} from "@reduxjs/toolkit"
 import {Provider} from "react-redux";
 
-const reducer = combineReducers({tuits: tuitsReducer, who: whoReducer, profile: profileReducer});
-const store = createStore(reducer);
+const store = configureStore({
+    reducer: {
+        tuitsData: tuitsReducer, who: whoReducer, profile: profileReducer
+    }
+})
 
 function Tuiter() {
     return (
@@ -42,6 +44,8 @@ function Tuiter() {
 }
 
 export default Tuiter
+
+
 
 
 

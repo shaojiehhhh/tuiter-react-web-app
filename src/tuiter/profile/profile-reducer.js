@@ -1,13 +1,18 @@
+import {createSlice} from "@reduxjs/toolkit";
+import 'font-awesome/css/font-awesome.min.css';
 import profile from "./profile.json";
 
-const profileReducer = (state = profile, action) => {
-    switch (action.type) {
-        case "update-profile":
-            return {...state, ...action.profile};
-        default:
-            return state;
+const profileSlice = createSlice({
+    name: "profile",
+    initialState: profile,
+    reducers: {
+        editProfile(state, action) {
+            Object.assign(state, action.payload);
+        }
     }
-};
+})
 
-export default profileReducer;
+export const {editProfile} = profileSlice.actions;
+export default profileSlice.reducer;
+
 

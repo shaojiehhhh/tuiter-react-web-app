@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
+import 'font-awesome/css/font-awesome.min.css';
 import {Link} from "react-router-dom";
 
 const EditProfile = () => {

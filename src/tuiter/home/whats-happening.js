@@ -1,18 +1,24 @@
 import React, {useState} from "react";
 import {useDispatch} from 'react-redux';
 import 'font-awesome/css/font-awesome.min.css';
-import {createTuit} from "../tuits/tuits-reducer";
+import {createTuitThunk} from "../../services/tuits-thunks";
 
 const WhatsHappening = () => {
     let [whatsHappening, setWhatsHappening] = useState('');
     const dispatch = useDispatch();
+    const currentUser = {
+        "username": "NASA",
+        "handle": "@nasa",
+        "image": "nasaLogo.png",
+        "time": "2s"
+    };
     const tuitClickHandler = () => {
         const newTuit = {
+            ...currentUser,
             tuit: whatsHappening
         }
-        dispatch(createTuit(newTuit));
+        dispatch(createTuitThunk(newTuit));
     }
-
     return (
         <>
             <div className="row">
@@ -43,3 +49,4 @@ const WhatsHappening = () => {
     );
 }
 export default WhatsHappening;
+
